@@ -13,19 +13,28 @@ Download Extensions
 	C#
 	Angular Snippets
 Github Connection
-…or create a new repository on the command line
-i. echo "# refresherAngular11" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/cjcoder87/refresherAngular11.git
-git push -u origin main
+	git config --global user.name "yourusername"
+	git config --global user.email "email@youremail.com"
 
-ii. …or push an existing repository from the command line
-git remote add origin https://github.com/cjcoder87/refresherAngular11.git
-git branch -M main
-git push -u origin main
+	2 Factor Auth - Create Access token 162c85d3d01f8d653119afbe15a65ed80f7568e3
+	Github.com, https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
+
+	Create new repo and branch
+
+	…or create a new repository on the command line
+	i. echo "# refresherAngular11" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/cjcoder87/refresherAngular11.git
+	git push -u origin main
+
+	ii. …or push an existing repository from the command line
+	git remote add origin https://github.com/cjcoder87/refresherAngular11.git
+	git branch -M main
+	git branch --set-upstream-to=origin/main
+	git push -u origin main
 
 3. Angular Project Setup (https://angular.io/)
 Open VS Code
