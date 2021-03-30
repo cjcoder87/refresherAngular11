@@ -1,0 +1,51 @@
+Angular Notes
+
+Directives
+NGModel - FormModule Needed
+<input ([ngModel])="name">
+{{name}}
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+
+Loading Program - Main Ts FIle, App.module
+
+Boostrap Contains Component that should be analyzed before startup
+
+Module - group of functionalities
+
+Components need to go in declerations in app module
+imports in App Module -are for modules that were created or broken up and need ti be added there
+
+Templates - required, can be a location path or a custom html selector, or array of styles
+
+DataBinding - TS to HTML
+	String Interpolation {{name}}
+	Property Binding [property]="name"
+HTML To TS
+	Event Binding (event)="expression"
+Html to ts and ts to HTML
+Two Way data binding
+
+Services/Dependency Injection
+
+Routing
+
+Observables
+
+Forms
+
+Pipes
+
+Http/API
+
+Authentication
+
+Optimizations/Ng Modules
+
+Deployment
+
+Animations/Testing

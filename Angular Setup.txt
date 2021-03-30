@@ -44,3 +44,12 @@ CLI Commands
 i. npm install -g @angular/cli
 ii. ng new my-app
 iii. ng serve --open
+
+
+4. Adding Style
+ng add @angular/material
+Bootstrap - https://loiane.com/2017/08/how-to-add-bootstrap-to-an-angular-cli-project/#2-installing-bootstrap-from-npm
+npm install ngx-bootstrap --save or jquery
+
+5.Testing
+npm install --save-dev jasmine
