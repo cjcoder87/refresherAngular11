@@ -1,0 +1,37 @@
+1.Initial Machine Setup for Angular
+-Download Visual Studio Code or Favorite Text Editor
+-Download Git For Windows(Gitbash), select Visual Studio Code as default Editor
+-Download NPM Package Manager
+
+2. Visual Studio Code Setup
+Download Extensions
+	Omnisharp
+	Angular Essentials
+	Git Lens
+	Git History
+	Angular CLI
+	C#
+	Angular Snippets
+Github Connection
+…or create a new repository on the command line
+i. echo "# refresherAngular11" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/cjcoder87/refresherAngular11.git
+git push -u origin main
+
+ii. …or push an existing repository from the command line
+git remote add origin https://github.com/cjcoder87/refresherAngular11.git
+git branch -M main
+git push -u origin main
+
+3. Angular Project Setup (https://angular.io/)
+Open VS Code
+Set Gitbasd
+Bring up(Press Ctrl + ~)
+CLI Commands
+i. npm install -g @angular/cli
+ii. ng new my-app
+iii. ng serve --open
